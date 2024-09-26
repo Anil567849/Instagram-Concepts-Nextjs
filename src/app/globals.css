@@ -76,3 +76,26 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* Customize the width of the scrollbar */
+::-webkit-scrollbar {
+  width: 1px;
+  height: 5px;
+}
+
+/* Customize the background of the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;   /* Light background for the track */
+  border-radius: 10px;   /* Smooth edges */
+}
+
+/* Customize the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #5a5164, #a7b5ce); /* Gradient color */
+  border-radius: 10px;  /* Rounded scrollbar */
+}
+
+/* Add hover effect to scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #bca5f1, #616780); /* Darker gradient on hover */
+}
